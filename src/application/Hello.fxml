@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="446.0" prefWidth="313.0" style="-fx-background-color: #303030;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.helloController">
+   <children>
+      <Button fx:id="button" alignment="CENTER" contentDisplay="CENTER" layoutX="81.0" layoutY="101.0" mnemonicParsing="false" onAction="#btnclicked" prefHeight="66.0" prefWidth="152.0" style="-fx-background-color: #ECECEC;" text="Say Hello" textAlignment="RIGHT">
+         <font>
+            <Font name="Bell MT" size="20.0" />
+         </font>
+      </Button>
+      <Label fx:id="label" alignment="CENTER" contentDisplay="CENTER" layoutX="73.0" layoutY="239.0" prefHeight="66.0" prefWidth="167.0" text="Label" textAlignment="CENTER" textFill="#ddd7d7">
+         <font>
+            <Font name="Berlin Sans FB" size="15.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
