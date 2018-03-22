@@ -20,6 +20,7 @@ public class HelloWorld extends Application {
 		Parent root = FXMLLoader.load(getClass().getResource("Hello.fxml"));
 		
 		primaryStage.initStyle(StageStyle.UNDECORATED);  // hides window border
+		//this code was added from github
 		
 		primaryStage.setScene(new Scene (root));
 		primaryStage.show();
